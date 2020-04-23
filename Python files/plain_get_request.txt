@@ -1,0 +1,33 @@
+//Leaderboard Get Request
+GET /student/arjuna_ajax_combine.php?trmid=11&trcid=75&trtopicid=4635&topicname=Season-5_Session-04_09-02-2020 HTTP/1.1
+Host: teleuniv.net
+Connection: close
+Accept: text/html, */*; q=0.01
+Sec-Fetch-Dest: empty
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+DNT: 1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Referer: https://teleuniv.net/student/arjuna-weekly-leaderboard_new.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+Cookie: MoodleSession=f0kicgnnqe81t7telev9jmspk0
+
+
+//Dashboard Get request
+GET /student/dashboard.php HTTP/1.1
+Host: teleuniv.net
+Connection: close
+Cache-Control: max-age=0
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36
+Sec-Fetch-Dest: document
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en-IN;q=0.9,en;q=0.8
+Cookie: MoodleSession=em59un6mva0pvqcapf7lp6qbn0
